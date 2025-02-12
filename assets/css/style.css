@@ -17072,3 +17072,159 @@ button.icons {
     transform: scale(2);
   }
 }
+
+.blood-test{
+  background: linear-gradient(97.3deg, #B187E3 22.03%, #5135F7 110.73%);
+ width: 95vw; display: flex; align-items: center; flex-direction: column; height: 90vh;
+}
+#para1{
+  color: white; font-size: large;
+}
+#para2{
+  color: white; font-size: large;
+}
+#para3{
+  color: white; font-size: large;
+}
+#para4{
+  color: white; font-size: large;
+}
+@media screen and (max-width:1164px) {
+  
+    #para1 , #para2 , #para3 , #para4{
+      font-size: 14px;
+    }
+  
+
+}
+
+#btest{
+  padding: 50px 120px; display: flex; justify-content: center; align-items: center;
+}
+#myImg{
+  border-radius: 10px; margin: 0px 10px;
+}
+
+@media screen and (max-width:1084px) {
+  #btest{
+    padding: 50px 50px;
+  }
+  #myImg{
+    width: 255px;
+  }
+}
+
+@media screen and (max-width:957px) {
+  .blood-test{
+    height: 97vh;
+  }
+  
+}
+
+@media screen and (max-width:873px) {
+  .blood-test{
+    height: 105vh;
+  }
+  
+}
+
+@media screen and (max-width:724px) {
+  #btest{
+    flex-direction: column-reverse;
+  }
+  .blood-test{
+    height: 125vh;
+  }
+  
+}
+
+.buttons9{
+  margin: 5px 5px 5px 5px; padding: 7px 20px 7px 20px; border: 0px solid #fff; border-radius: 30px;
+}
+
+@media screen and (max-width:564px) {
+  
+  .buttons9{
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+  }
+  
+}
+
+.headding{
+  padding: 65px 0px 40px 0px;
+}
+
+@media screen and (max-width:420px) {
+ .headding{
+  padding: 25px 0px 20px 0px;
+ }
+  
+}
+
+.cardscompo{
+  background: black;
+ width: 95vw; display: flex; align-items: center; flex-direction: column; height: 70vh;
+}
+.cardscompo2{
+  display: flex;
+}
+
+@media screen and (max-width:520px) {
+  .cardscompo{
+    height: 105vh;
+    
+  }
+  .cardscompo2{
+    flex-direction: column;
+  }
+   
+ }
+
+ .aiF{
+  background-color: white; margin: 40px 0px 0px 0px; padding-bottom: 40px; display: flex; justify-content: center; align-items: center;
+ }
+
+ @media screen and (max-width:666px) {
+  .aiF{
+    flex-direction: column;
+  }
+   
+ }
+
+ .mainn{
+   background-color: white; padding: 0px 20px 0px 20px; display: flex; justify-content: center;
+ }
+
+ @media screen and (max-width:835px) {
+  .mainn{
+    flex-direction: column;
+    align-items: center;
+  }
+   
+ }
+
+ .mainn2{
+  margin: 20px; width: 600px; display: flex; flex-direction: column;
+ }
+ @media screen and (max-width:637px) {
+  .mainn2{
+    width: 470px;
+  }
+ }
+ @media screen and (max-width:515px) {
+  .mainn2{
+    width: 370px;
+  }
+ }
+ #mydropdown1,  #mydropdown2, #mydropdown3,  #mydropdown4,  #mydropdown5,  #mydropdown6{
+  font-size: large;
+ }
+ @media screen and (max-width:600px) {
+  #mydropdown1,  #mydropdown2, #mydropdown3,  #mydropdown4,  #mydropdown5,  #mydropdown6{
+    font-size: small;
+   }
+   .heaad{
+    font-size: 17px;
+   }
+ }
