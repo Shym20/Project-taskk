@@ -17215,6 +17215,7 @@ button.icons {
  @media screen and (max-width:515px) {
   .mainn2{
     width: 370px;
+    padding: 0px 12px 0px 12px;
   }
  }
  #mydropdown1,  #mydropdown2, #mydropdown3,  #mydropdown4,  #mydropdown5,  #mydropdown6{
