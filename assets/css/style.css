@@ -11397,6 +11397,10 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 }
 
+.cardd{
+  height: 350px;
+}
+
 .containerr .cardd .iconn .fa {
 
   position: absolute;
@@ -11471,7 +11475,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .containerr .cardd:hover .slidee.slidee2{
 
-  transform: translateY(0);
+  transform: translateY(-50px);
 
 }
 
@@ -17167,17 +17171,17 @@ button.icons {
 
 .cardscompo{
   background: black;
- width: 95vw; display: flex; align-items: center; flex-direction: column; height: 70vh;
+ width: 95vw; display: flex; align-items: center; flex-direction: column;
+ border-radius: 35px;
+ margin-top: 16px;
 }
 .cardscompo2{
   display: flex;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width:520px) {
-  .cardscompo{
-    height: 105vh;
-    
-  }
+@media screen and (max-width:820px) {
+  
   .cardscompo2{
     flex-direction: column;
   }
@@ -17290,6 +17294,53 @@ button.icons {
 
 }
 
+.columnnn {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowww {margin: 0 -5px; display: flex; justify-content: center;}
+
+/* Clear floats after the columns */
+.rowww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnnn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.carddd1, .carddd2, .carddd3, .carddd4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 250px;
+}
+.carddd1{
+  background-image: url("https://www.swasthfit.in/frontend/images/goal-img01.png");
+  filter: opacity(50%);
+}
+.carddd2{
+  background-image: url("https://www.swasthfit.in/frontend/images/goal-img02.png");
+}
+.carddd3{
+  background-image: url("https://www.swasthfit.in/frontend/images/goal-img03.png");
+}
+.carddd4{
+  background-image: url("https://www.swasthfit.in/frontend/images/goal-img04.png");
+}
 
         
 
