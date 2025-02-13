@@ -17076,6 +17076,8 @@ button.icons {
 .blood-test{
   background: linear-gradient(97.3deg, #B187E3 22.03%, #5135F7 110.73%);
  width: 95vw; display: flex; align-items: center; flex-direction: column; height: 90vh;
+ border-radius: 35px;
+ margin-top: 15px;
 }
 #para1{
   color: white; font-size: large;
@@ -17140,6 +17142,7 @@ button.icons {
 
 .buttons9{
   margin: 5px 5px 5px 5px; padding: 7px 20px 7px 20px; border: 0px solid #fff; border-radius: 30px;
+  color: black;
 }
 
 @media screen and (max-width:564px) {
@@ -17182,7 +17185,10 @@ button.icons {
  }
 
  .aiF{
-  background-color: white; margin: 40px 0px 0px 0px; padding-bottom: 40px; display: flex; justify-content: center; align-items: center;
+  background-color: white; margin: 24px 0px 0px 0px; padding: 20px 0px 40px 0px; display: flex; justify-content: center; align-items: center;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  
  }
 
  @media screen and (max-width:666px) {
@@ -17194,6 +17200,8 @@ button.icons {
 
  .mainn{
    background-color: white; padding: 0px 20px 0px 20px; display: flex; justify-content: center;
+   border-bottom-right-radius: 35px;
+   border-bottom-left-radius: 35px;
  }
 
  @media screen and (max-width:835px) {
@@ -17229,3 +17237,60 @@ button.icons {
     font-size: 17px;
    }
  }
+
+ @media screen and (max-width:440px) {
+  .blood-test{
+    height: 145vh;
+  
+  }
+}
+
+ @media screen and (max-width:410px) {
+  .blood-test{
+    height: 140vh;
+  
+  }
+}
+
+@media screen and (max-width:380px) {
+  #myImg{
+    width: 200px;
+    
+  }
+}
+@media screen and (max-width:345px) {
+          .buttons9{
+            padding: 3px 6px 3px 6px;
+        font-size: 9px;
+            
+          }
+        }
+@media screen and (max-width:327px) {
+          
+            #para1 , #para2 , #para3 , #para4{
+              font-size: 12px;
+            }
+          
+}
+.para5{
+  margin: 0px 5%; font-size: larger;
+}
+
+@media screen and (max-width:380px) {
+          
+  .heaad2{
+    font-size: 15px;
+  }
+  .para5{
+    font-size: small;
+  }
+  .mainn2{
+    width: 292px;
+  }
+
+}
+
+
+        
+
+
